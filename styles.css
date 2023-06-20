@@ -1,0 +1,184 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: rgb(1, 1, 46);
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    height:80px;
+    background-color:rgb(41, 41, 87);
+}
+nav ul{
+    display:flex;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+    display: flex;
+    padding:12px;
+    margin:0px 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color:rgb(158, 158, 254);
+}
+.left
+{
+    font-size:1.5rem;
+}
+.left img{
+    width:80px;
+    height:70px;
+}
+#first-section
+{
+    display: flex;
+    justify-content: space-around;
+    margin:80px 0px;
+    align-items: center;
+}
+#first-section >div{
+    width:30%;
+   
+}
+.left-section
+{
+   font-size:2.5rem;
+    /* margin: 250px 0px; */
+}
+.right-section img{
+     width:80%;
+    
+}
+.purple
+{
+    color: rgb(167, 87, 242);
+}
+.text-gray
+{
+    color:gray;
+}
+#element
+{
+    color: rgb(167, 87, 242);
+}
+/*  second section */
+#second-section
+{
+    margin:auto;
+    max-width:80vw;
+}
+#second-section h1{
+    font-size:2rem;
+   margin-bottom: 25px;
+}
+#second-section div{
+    margin:25px 0px;
+}
+.btn
+{
+    background-color:rgb(167, 87, 242); 
+    color:white;
+    font-size: 15px;
+    padding:10px;
+    border:2px;
+    border-radius: 7px;
+}
+
+.space
+{
+    margin:0px 5px;
+}
+footer{
+    margin-top:24px;
+    height: 140px;
+    background-color: rgb(41, 41, 87);
+}
+footer div{
+    margin: 25px 130px;
+    padding:5px;
+    /* margin-top:100px; */
+}
+h2{
+    margin-left:10px;
+    margin-bottom: 12px;
+}
+footer a{
+    padding:10px;
+    text-decoration: none;
+    color: gray;
+   
+}
+footer a:hover{
+    color: rgb(158, 158, 254);
+}
+.copyright
+{
+    text-align: center;
+}
+#scroll-btn
+{
+    content:"SCROLL DOWN";
+}
+.skill
+{
+   list-style-type: none;
+   padding:8px;
+
+}
+#contact-me
+{
+    margin-left: 100px;
+    margin-top: 60px;
+    padding:12px;
+}
+/* media queries */
+@media (max-width:710px) {
+    body {
+        /* background-color: red; */
+    }
+    nav{
+       position:relative;
+       width:1000px;
+    }
+   
+    #first-section .left-section
+        {
+         margin-left:100px;
+         margin-right:px;
+        }
+    #first-section .right-section img{
+
+      margin:200px;
+        
+    }
+    #second-section
+    {
+    margin-left:60px;
+    }
+    footer 
+    {
+        position: relative;
+        width: 1000px;
+        height: 340px;
+    }
+    
+    #contact-me {
+             /* margin:225px 0px; */
+    
+        margin-left: 55px;
+        margin-top: 60px;
+    
+         }
+
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skills</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left"><img src="logo.png" alt="" /></div>
+        <div class="right">
+          <ul>
+            <li><a href="\">Home</a></li>
+            <li><a href="#first-section">About Me</a></li>
+            <li><a id="scroll-btn" href="projects.html">Projects</a></li>
+            <li><a href="skills.html">My Skills</a></li>
+            <li><a href="#contact-me">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="first-section">
+        <div class="left-section">
+          Hy, I am<span class="purple"> Aruneet </span>
+          <div>a passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="right-section">
+          <img src="my-removebg-preview.png" alt="" />
+        </div>
+      </section>
+      <section id="second-section">
+        <h1>My Skills</h1>
+        <ul>
+          <li class="skill">Java</li>
+          <li class="skill">HTML</li>
+          <li class="skill">CSS</li>
+          <li class="skill">Javascript</li>
+          <li class="skill">BootStrap</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <div id="contact-me">
+        <h2>Contact Me</h2>
+        <a
+          href="https://www.linkedin.com/in/aruneet-kinra-a7b9941bb/"
+          target="_blank"
+          class="link"
+          >LinedIn</a
+        >
+        <a href="mailto:aruneet526@gmail.com">Email</a>
+        <a href="https://github.com/Aruneet-11" target="_blank">Github</a>
+        <p class="copyright">© Aruneet Kinra.</p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Learner"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
