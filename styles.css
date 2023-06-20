@@ -102,7 +102,9 @@ nav ul li a:hover{
 footer{
     margin-top:24px;
     height: 140px;
-    background-color: rgb(41, 41, 87);
+/*     background-color: rgb(41, 41, 87); */
+     padding-bottom: 40px;
+  padding-top: 60px;
 }
 footer div{
     margin: 25px 130px;
